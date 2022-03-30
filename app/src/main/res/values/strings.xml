@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">CollectFlowersApp</string>
+
+    <!--    main activity-->
+    <string name="game_remainingTime">Remaining Time: </string>
+    <string name="game_score">Your Score: </string>
+    <string name="game_startingTime">5</string>
+    <string name="game_menuVolume">Volume</string>
+
+<!--    result activity-->
+    <string name="result_congratulations">Congratulations, new high record !</string>
+    <string name="result_endScore">Your score: </string>
+    <string name="result_highestScore">Highest score: </string>
+    <string name="result_playAgain_btn">Play Again </string>
+    <string name="result_quitGame_btn">Quit Game </string>
+
+</resources>

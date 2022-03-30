@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity"
+    android:background="@color/teal_200">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/result_congratulations"
+        android:text="@string/result_congratulations"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/result_endScore"
+        android:text="@string/result_endScore"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:layout_below="@id/result_congratulations"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/result_highestScore"
+        android:text="@string/result_highestScore"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:layout_below="@id/result_endScore"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textAlignment="center"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/result_playAgain_btn"
+        android:layout_margin="20dp"
+        android:background="@drawable/result_button_design"
+        android:text="@string/result_playAgain_btn"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:layout_above="@id/result_quitGame_btn" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/result_quitGame_btn"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/result_button_design"
+        android:textSize="24sp"
+        android:textAllCaps="false"
+        android:text="@string/result_quitGame_btn" />
+
+</RelativeLayout>
